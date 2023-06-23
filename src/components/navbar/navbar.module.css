@@ -1,0 +1,47 @@
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logout {
+    padding: 5px;
+    border: none;
+    background-color: #53c28b;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.menuBars {
+    display: none;
+}
+
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .menuBars {
+        display: block;
+    }
+
+    .link {
+        display: none;
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {}
+
+/* Mobile & table: width >= 1024px */
+@media screen and (max-width: 64em) {}
